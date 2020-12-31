@@ -1,3 +1,4 @@
+" If this file was changed, lets typing command: call minpac#update()
 packadd minpac
 call minpac#init()
 call minpac#add('k-takata/minpac', { 'type': 'opt' })

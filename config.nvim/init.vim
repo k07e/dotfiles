@@ -1,5 +1,3 @@
-" If this file was changed, lets typing command: call minpac#update()
-
 " When file was changed, reload source
 autocmd! BufWritePost init.vim source $MYVIMRC
 autocmd! BufWritePost *.init.vim source %
