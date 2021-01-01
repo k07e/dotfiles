@@ -2,6 +2,7 @@
 packadd minpac
 call minpac#init()
 call minpac#add('k-takata/minpac', { 'type': 'opt' })
+call minpac#add('907th/vim-auto-save', { 'type': 'opt' })
 call minpac#add('jiangmiao/auto-pairs', { 'type': 'opt' })
 call minpac#add('editorconfig/editorconfig-vim', { 'type': 'opt' })
 call minpac#add('airblade/vim-gitgutter', { 'type': 'opt' })

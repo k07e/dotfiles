@@ -4,6 +4,7 @@ autocmd! BufWritePost *.init.vim source %
 
 " Alias `so` does `source`
 so ~/.config/nvim/package.minpac.init.vim
+so ~/.config/nvim/package.vim-auto-save.init.vim
 so ~/.config/nvim/package.auto-pairs.init.vim
 so ~/.config/nvim/package.editorconfig-vim.init.vim
 so ~/.config/nvim/package.vim-gitgutter.init.vim
