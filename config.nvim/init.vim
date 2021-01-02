@@ -1,6 +1,10 @@
 " When file was changed, reload source
-autocmd! BufWritePost init.vim source $MYVIMRC
-autocmd! BufWritePost *.init.vim source %
+" Alias `aug` and `au` does `augroup` and `autocmd`
+aug reload_initvim
+  au!
+  au BufWritePost init.vim source $MYVIMRC
+  au BufWritePost *.init.vim source %
+aug END
 
 " Alias `so` does `source`
 so ~/.config/nvim/package.minpac.init.vim
