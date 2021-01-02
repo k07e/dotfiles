@@ -20,4 +20,8 @@ so ~/.config/nvim/package.vim-localrc.init.vim
 so ~/.config/nvim/package.vim-polyglot.init.vim
 so ~/.config/nvim/package.vimdoc-ja.init.vim
 so ~/.config/nvim/package.vim-one.init.vim
+so ~/.config/nvim/package.vim-lsp.init.vim
+so ~/.config/nvim/package.vim-lsp-settings.init.vim
+so ~/.config/nvim/package.asyncomplete.vim.init.vim
+so ~/.config/nvim/package.asyncomplete-lsp.vim.init.vim
 so ~/.config/nvim/basic.init.vim
