@@ -12,7 +12,10 @@ so ~/.config/nvim/package.vim-auto-save.init.vim
 so ~/.config/nvim/package.auto-pairs.init.vim
 so ~/.config/nvim/package.editorconfig-vim.init.vim
 so ~/.config/nvim/package.vim-gitgutter.init.vim
-so ~/.config/nvim/package.nerdtree.init.vim
+so ~/.config/nvim/package.nerdtree.init.vim |
+  \ if has('nvim-0.5.0')
+    so ~/.config/nvim/package.nerdtree-git-plugin.init.vim
+  endif
 so ~/.config/nvim/package.vim-eunuch.init.vim
 so ~/.config/nvim/package.vim-fugitive.init.vim
 so ~/.config/nvim/package.vim-airline.init.vim

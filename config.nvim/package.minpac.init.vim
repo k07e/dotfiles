@@ -6,7 +6,10 @@ call minpac#add('907th/vim-auto-save', { 'type': 'opt' })
 call minpac#add('jiangmiao/auto-pairs', { 'type': 'opt' })
 call minpac#add('editorconfig/editorconfig-vim', { 'type': 'opt' })
 call minpac#add('airblade/vim-gitgutter', { 'type': 'opt' })
-call minpac#add('preservim/nerdtree', { 'type': 'opt' })
+call minpac#add('preservim/nerdtree', { 'type': 'opt' }) |
+  \ if has('nvim-0.5.0')
+    call minpac#add('Xuyuanp/nerdtree-git-plugin', { 'type': 'opt' })
+  endif
 call minpac#add('tpope/vim-eunuch', { 'type': 'opt' })
 call minpac#add('tpope/vim-fugitive', { 'type': 'opt' })
 call minpac#add('vim-airline/vim-airline', { 'type': 'opt' })
