@@ -21,5 +21,8 @@ call minpac#add('prabirshrestha/vim-lsp', { 'type': 'opt' })
 call minpac#add('mattn/vim-lsp-settings', { 'type': 'opt' })
 call minpac#add('prabirshrestha/asyncomplete.vim', { 'type': 'opt' })
 call minpac#add('prabirshrestha/asyncomplete-lsp.vim', { 'type': 'opt' })
+if has('python3')
+  call minpac#add('codota/tabnine-vim', { 'type': 'opt' })
+endif
 call minpac#add('dbeniamine/todo.txt-vim', { 'type': 'opt' })
 call minpac#add('simeji/winresizer', { 'type': 'opt' })

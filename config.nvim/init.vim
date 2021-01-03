@@ -27,6 +27,9 @@ so ~/.config/nvim/package.vim-lsp.init.vim
 so ~/.config/nvim/package.vim-lsp-settings.init.vim
 so ~/.config/nvim/package.asyncomplete.vim.init.vim
 so ~/.config/nvim/package.asyncomplete-lsp.vim.init.vim
+if has('python3')
+  so ~/.config/nvim/package.tabnine-vim.init.vim
+endif
 so ~/.config/nvim/package.todo.txt-vim.init.vim
 so ~/.config/nvim/package.winresizer.init.vim
 so ~/.config/nvim/basic.init.vim
