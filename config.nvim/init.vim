@@ -35,4 +35,5 @@ if has('python3')
 endif
 so ~/.config/nvim/package.todo.txt-vim.init.vim
 so ~/.config/nvim/package.winresizer.init.vim
+so ~/.config/nvim/filetype.json5.init.vim
 so ~/.config/nvim/basic.init.vim
