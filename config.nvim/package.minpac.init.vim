@@ -27,5 +27,8 @@ call minpac#add('prabirshrestha/asyncomplete-lsp.vim', { 'type': 'opt' })
 if has('python3')
   call minpac#add('codota/tabnine-vim', { 'type': 'opt' })
 endif
+if executable('code-minimap')
+  call minpac#add('wfxr/minimap.vim', { 'type': 'opt' })
+endif
 call minpac#add('dbeniamine/todo.txt-vim', { 'type': 'opt' })
 call minpac#add('simeji/winresizer', { 'type': 'opt' })

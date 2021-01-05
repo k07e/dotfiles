@@ -34,6 +34,9 @@ so ~/.config/nvim/package.asyncomplete-lsp.vim.init.vim
 if has('python3')
   so ~/.config/nvim/package.tabnine-vim.init.vim
 endif
+if executable('code-minimap')
+  so ~/.config/nvim/package.minimap.vim.init.vim
+endif
 so ~/.config/nvim/package.todo.txt-vim.init.vim
 so ~/.config/nvim/package.winresizer.init.vim
 so ~/.config/nvim/filetype.json5.init.vim
