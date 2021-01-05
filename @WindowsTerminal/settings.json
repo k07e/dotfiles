@@ -28,6 +28,7 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
+            "fontFace": "HackGenNerd Console"
         },
         "list":
         [
@@ -73,7 +74,7 @@
         // These two lines additionally bind them to Ctrl+C and Ctrl+V.
         // To learn more about selection, visit https://aka.ms/terminal-selection
         { "command": {"action": "copy", "singleLine": false }, "keys": "ctrl+c" },
-        { "command": "paste", "keys": "ctrl+v" },
+        // { "command": "paste", "keys": "ctrl+v" },
 
         // Press Ctrl+Shift+F to open the search box
         { "command": "find", "keys": "ctrl+shift+f" },
@@ -85,3 +86,4 @@
         { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
     ]
 }
+// vim: ft=json5
