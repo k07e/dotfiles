@@ -1,0 +1,7 @@
+{
+  "json-languageserver": {
+    "blocklist": [
+      "json5"
+    ]
+  }
+}
