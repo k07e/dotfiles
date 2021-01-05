@@ -18,7 +18,8 @@ so ~/.config/nvim/package.nerdtree.init.vim |
   endif
 so ~/.config/nvim/package.vim-commentary.init.vim
 so ~/.config/nvim/package.vim-eunuch.init.vim
-so ~/.config/nvim/package.vim-fugitive.init.vim
+so ~/.config/nvim/package.vim-fugitive.init.vim |
+  \ so ~/.config/nvim/package.vim-flog.init.vim
 so ~/.config/nvim/package.vim-airline.init.vim
 so ~/.config/nvim/package.vim-localrc.init.vim
 so ~/.config/nvim/package.vim-polyglot.init.vim

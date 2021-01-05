@@ -12,7 +12,8 @@ call minpac#add('preservim/nerdtree', { 'type': 'opt' }) |
   endif
 call minpac#add('tpope/vim-commentary', { 'type': 'opt' })
 call minpac#add('tpope/vim-eunuch', { 'type': 'opt' })
-call minpac#add('tpope/vim-fugitive', { 'type': 'opt' })
+call minpac#add('tpope/vim-fugitive', { 'type': 'opt' }) |
+  \ call minpac#add('rbong/vim-flog', { 'type': 'opt' })
 call minpac#add('vim-airline/vim-airline', { 'type': 'opt' })
 call minpac#add('thinca/vim-localrc', { 'type': 'opt' })
 call minpac#add('sheerun/vim-polyglot', { 'type': 'opt' })
