@@ -1,11 +1,15 @@
+function! RestartLspServerFunc()
+  call lsp#enable()
+  aug restart_lsp_server
+    au!
+  aug END
+endfunction
+
 function! RestartLspServer()
   call lsp#disable()
   aug restart_lsp_server
     au!
-    au VimEnter * call lsp#enable()
-  aug END
-  aug restart_lsp_server
-    au!
+    au BufNewFile,BufRead * call RestartLspServerFunc()
   aug END
 endfunction
 
