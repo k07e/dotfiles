@@ -1,9 +1,9 @@
-" When file was changed, reload source
+" Useful keymaps for init.vim or *.init.vim
 " Alias `aug` and `au` does `augroup` and `autocmd`
 aug reload_initvim
   au!
-  au BufWritePost init.vim source $MYVIMRC
-  au BufWritePost *.init.vim source %
+  au BufRead init.vim nnoremap <buffer> <leader>s :source $MYVIMRC<CR>
+  au BufRead *.init.vim nnoremap <buffer> <leader>s :source %<CR>
 aug END
 
 " Alias `so` does `source`

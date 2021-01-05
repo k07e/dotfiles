@@ -14,6 +14,6 @@ endfunction
 
 aug local_reload_initvim
   au!
-  au BufWritePost *.init.vim call LinkAllInitVim()
-  au BufWritePost package.minpac.init.vim call minpac#update()
+  au BufRead *.init.vim nnoremap <buffer> <leader>l :call LinkAllInitVim()<CR>
+  au BufRead package.minpac.init.vim nnoremap <buffer> <leader>u :call minpac#update()<CR>
 aug END
