@@ -10,6 +10,9 @@ function! LinkAllInitVim()
     let l:bool_expr = l:init_expr . '; diff (ls -1 config.nvim | ' . l:filter_expr . ' | psub) (ls -1 ~/.config/nvim | ' . l:filter_expr . ' | psub)'
   elseif l:shell_name == 'zsh'
     let l:bool_expr = l:init_expr . '; diff <(ls -1 config.nvim | ' . l:filter_expr . ') <(ls -1 ~/.config/nvim | ' . l:filter_expr . ')'
+  else
+    echoerr 'Unsupported shell: ' . l:shell_name
+    return
   endif
 
   call system(l:bool_expr)
