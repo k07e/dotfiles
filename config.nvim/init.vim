@@ -25,6 +25,7 @@ so ~/.config/nvim/package.vim-localrc.init.vim
 so ~/.config/nvim/package.vim-polyglot.init.vim
 so ~/.config/nvim/package.vimdoc-ja.init.vim
 so ~/.config/nvim/package.vim-one.init.vim
+so ~/.config/nvim/package.vim-devicons.init.vim
 so ~/.config/nvim/package.vim-which-key.init.vim
 so ~/.config/nvim/keymap.vim-which-key.init.vim
 so ~/.config/nvim/package.vim-lsp.init.vim
