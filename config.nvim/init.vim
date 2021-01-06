@@ -42,3 +42,7 @@ so ~/.config/nvim/package.todo.txt-vim.init.vim
 so ~/.config/nvim/package.winresizer.init.vim
 so ~/.config/nvim/filetype.json5.init.vim
 so ~/.config/nvim/basic.init.vim
+
+if filereadable(expand('~/.config/nvim/local.init.vim'))
+  so ~/.config/nvim/local.init.vim
+endif
