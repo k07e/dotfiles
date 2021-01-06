@@ -2,13 +2,20 @@ let s:script_dir = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
 function! LinkAllInitVim()
   let l:shell_name = fnamemodify(&shell, ':t')
+  let l:init_expr = 'cd ''' . s:script_dir . ''''
+  let l:filter_expr = 'grep -v -e ''^pack$'''
+  let l:run_if_error_expr = l:init_expr . '; stow -t ~/.config/nvim -v config.nvim'
+
   if l:shell_name == 'fish'
-    let l:init_cmd = 'cd ''' . s:script_dir . ''''
-    let l:filter_cmd = 'grep -v -e ''^pack$'''
-    call system(l:init_cmd . '; diff (ls -1 config.nvim | ' . l:filter_cmd . ' | psub) (ls -1 ~/.config/nvim | ' . l:filter_cmd . ' | psub)')
-    if v:shell_error != 0
-      echo system(l:init_cmd . '; stow -t ~/.config/nvim -v config.nvim')
-    endif
+    let l:bool_expr = l:init_expr . '; diff (ls -1 config.nvim | ' . l:filter_expr . ' | psub) (ls -1 ~/.config/nvim | ' . l:filter_expr . ' | psub)'
+  elseif l:shell_name == 'zsh'
+    let l:bool_expr = l:init_expr . '; diff <(ls -1 config.nvim | ' . l:filter_expr . ') <(ls -1 ~/.config/nvim | ' . l:filter_expr . ')'
+  endif
+
+  call system(l:bool_expr)
+
+  if v:shell_error != 0
+    echo system(l:run_if_error_expr)
   endif
 endfunction
 
