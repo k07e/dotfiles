@@ -1,4 +1,3 @@
-" Run `call minpac#update` if this file was updated
 packadd minpac
 call minpac#init()
 call minpac#add('k-takata/minpac', { 'type': 'opt' })
