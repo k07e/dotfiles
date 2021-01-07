@@ -2,7 +2,7 @@ set autoindent
 set autoread
 set background=dark
 set backup
-set backupdir=~/.cache/k7e-nvim/backup
+set backupdir=~/.cache/k07e-nvim/backup
 set cursorcolumn
 set cursorline
 set encoding=utf-8
@@ -33,7 +33,7 @@ set smartcase
 set smartindent
 set smarttab
 set tabstop=2
-set undodir=~/.cache/k7e-nvim/undo
+set undodir=~/.cache/k07e-nvim/undo
 set undofile
 set virtualedit+=block,onemore
 set wildignorecase
