@@ -2,8 +2,8 @@
 " Alias `aug` and `au` does `augroup` and `autocmd`
 aug reload_initvim
   au!
-  au BufEnter init.vim nnoremap <buffer> <leader>s :source $MYVIMRC<CR>
-  au BufEnter *.init.vim,*.postinit.vim nnoremap <buffer> <leader>s :source %<CR>
+  au BufEnter init.vim nnoremap <buffer> <leader>lx :source $MYVIMRC<CR>
+  au BufEnter *.init.vim,*.postinit.vim nnoremap <buffer> <leader>lx :source %<CR>
 aug END
 
 " Alias `so` does `source`
