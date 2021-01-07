@@ -3,11 +3,13 @@
 aug reload_initvim
   au!
   au BufEnter init.vim nnoremap <buffer> <leader>s :source $MYVIMRC<CR>
-  au BufEnter *.init.vim nnoremap <buffer> <leader>s :source %<CR>
+  au BufEnter *.init.vim,*.postinit.vim nnoremap <buffer> <leader>s :source %<CR>
 aug END
 
 " Alias `so` does `source`
 so ~/.config/nvim/package.minpac.init.vim
+so ~/.config/nvim/package.vim-which-key.init.vim
+so ~/.config/nvim/keymap.vim-which-key.init.vim
 so ~/.config/nvim/package.vim-auto-save.init.vim
 so ~/.config/nvim/package.auto-pairs.init.vim
 so ~/.config/nvim/package.editorconfig-vim.init.vim
@@ -26,8 +28,6 @@ so ~/.config/nvim/package.vim-polyglot.init.vim
 so ~/.config/nvim/package.vimdoc-ja.init.vim
 so ~/.config/nvim/package.vim-one.init.vim
 so ~/.config/nvim/package.vim-devicons.init.vim
-so ~/.config/nvim/package.vim-which-key.init.vim
-so ~/.config/nvim/keymap.vim-which-key.init.vim
 so ~/.config/nvim/package.vim-lsp.init.vim
 so ~/.config/nvim/package.vim-lsp-settings.init.vim
 so ~/.config/nvim/package.asyncomplete.vim.init.vim
@@ -42,6 +42,7 @@ so ~/.config/nvim/package.todo.txt-vim.init.vim
 so ~/.config/nvim/package.winresizer.init.vim
 so ~/.config/nvim/filetype.json5.init.vim
 so ~/.config/nvim/basic.init.vim
+so ~/.config/nvim/package.vim-which-key.postinit.vim
 
 if filereadable(expand('~/.config/nvim/local.init.vim'))
   so ~/.config/nvim/local.init.vim
