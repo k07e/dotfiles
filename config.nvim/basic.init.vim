@@ -16,7 +16,7 @@ set incsearch
 set infercase
 set laststatus=2
 set list
-set listchars=eol:↵,tab:»-,space:·,trail:-,extends:»,precedes:«,nbsp:%
+set listchars=eol:↵,tab:»-,trail:·,extends:»,precedes:«,nbsp:%
 set matchpairs+=<:>
 set modeline
 set modelineexpr
