@@ -1,11 +1,3 @@
-" Useful keymaps for init.vim or *.init.vim
-" Alias `aug` and `au` does `augroup` and `autocmd`
-aug reload_initvim
-  au!
-  au BufEnter init.vim nnoremap <buffer> <leader>lx :source $MYVIMRC<CR>
-  au BufEnter *.init.vim,*.postinit.vim nnoremap <buffer> <leader>lx :source %<CR>
-aug END
-
 " Alias `so` does `source`
 so ~/.config/nvim/package.minpac.init.vim
 so ~/.config/nvim/package.vim-which-key.init.vim
@@ -43,6 +35,7 @@ so ~/.config/nvim/package.winresizer.init.vim
 so ~/.config/nvim/filetype.json5.init.vim
 so ~/.config/nvim/basic.init.vim
 so ~/.config/nvim/package.vim-which-key.postinit.vim
+so ~/.config/nvim/postinit.vim
 
 if filereadable(expand('~/.config/nvim/local.init.vim'))
   so ~/.config/nvim/local.init.vim
