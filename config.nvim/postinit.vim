@@ -12,6 +12,6 @@ endfunction
 " Alias `aug` and `au` does `augroup` and `autocmd`
 aug reload_initvim
   au!
-  au BufEnter init.vim call DefineKeymapForInitVim()
+  au BufEnter init.vim,postinit.vim call DefineKeymapForInitVim()
   au BufEnter *.init.vim,*.postinit.vim call DefineKeymapForGlobInitVim()
 aug END
