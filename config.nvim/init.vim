@@ -20,6 +20,7 @@ so ~/.config/nvim/package.vim-polyglot.init.vim
 so ~/.config/nvim/package.vimdoc-ja.init.vim
 so ~/.config/nvim/package.vim-one.init.vim
 so ~/.config/nvim/package.vim-code-dark.init.vim
+so ~/.config/nvim/package.vim.init.vim
 so ~/.config/nvim/package.vim-devicons.init.vim
 so ~/.config/nvim/package.vim-lsp.init.vim
 so ~/.config/nvim/package.vim-lsp-settings.init.vim
