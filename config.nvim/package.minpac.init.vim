@@ -34,3 +34,4 @@ if executable('code-minimap')
 endif
 call minpac#add('dbeniamine/todo.txt-vim', { 'type': 'opt' })
 call minpac#add('simeji/winresizer', { 'type': 'opt' })
+call minpac#add('Yggdroot/LeaderF', { 'type': 'opt' })

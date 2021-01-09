@@ -34,6 +34,7 @@ if executable('code-minimap')
 endif
 so ~/.config/nvim/package.todo.txt-vim.init.vim
 so ~/.config/nvim/package.winresizer.init.vim
+so ~/.config/nvim/package.LeaderF.init.vim
 so ~/.config/nvim/filetype.json5.init.vim
 so ~/.config/nvim/basic.init.vim
 so ~/.config/nvim/package.vim-which-key.postinit.vim
