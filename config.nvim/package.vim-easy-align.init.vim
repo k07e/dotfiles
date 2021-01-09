@@ -1,0 +1,1 @@
+packadd vim-easy-align

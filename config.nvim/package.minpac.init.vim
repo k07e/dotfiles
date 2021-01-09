@@ -35,3 +35,4 @@ endif
 call minpac#add('dbeniamine/todo.txt-vim', { 'type': 'opt' })
 call minpac#add('simeji/winresizer', { 'type': 'opt' })
 call minpac#add('Yggdroot/LeaderF', { 'type': 'opt' })
+call minpac#add('junegunn/vim-easy-align', { 'type': 'opt' })
