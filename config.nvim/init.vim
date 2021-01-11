@@ -15,6 +15,7 @@ so ~/.config/nvim/package.vim-eunuch.init.vim
 so ~/.config/nvim/package.vim-fugitive.init.vim |
   \ so ~/.config/nvim/package.vim-flog.init.vim
 so ~/.config/nvim/package.vim-surround.init.vim
+so ~/.config/nvim/package.vim-airline.preinit.vim
 so ~/.config/nvim/package.vim-airline.init.vim
 so ~/.config/nvim/package.vim-localrc.init.vim
 so ~/.config/nvim/package.vim-polyglot.init.vim
