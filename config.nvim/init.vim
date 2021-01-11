@@ -40,6 +40,8 @@ so ~/.config/nvim/package.vim-easy-align.init.vim
 so ~/.config/nvim/keymap.vim-easy-align.init.vim
 so ~/.config/nvim/package.vim-quickrun.init.vim
 so ~/.config/nvim/package.vim-startify.init.vim
+so ~/.config/nvim/package.vim-indent-guides.preinit.vim
+so ~/.config/nvim/package.vim-indent-guides.init.vim
 so ~/.config/nvim/filetype.json5.init.vim
 so ~/.config/nvim/basic.init.vim
 so ~/.config/nvim/package.vim-which-key.postinit.vim
