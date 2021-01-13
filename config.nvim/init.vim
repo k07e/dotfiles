@@ -45,6 +45,7 @@ so ~/.config/nvim/package.vim-indent-guides.preinit.vim
 so ~/.config/nvim/package.vim-indent-guides.init.vim
 so ~/.config/nvim/package.vim-easymotion.init.vim
 so ~/.config/nvim/package.vim-vsnip.init.vim
+so ~/.config/nvim/keymap.vim-vsnip.init.vim
 so ~/.config/nvim/package.vim-vsnip-integ.init.vim
 so ~/.config/nvim/filetype.json5.init.vim
 so ~/.config/nvim/basic.init.vim
