@@ -40,6 +40,7 @@ so ~/.config/nvim/package.winresizer.init.vim
 so ~/.config/nvim/package.LeaderF.init.vim
 so ~/.config/nvim/package.vim-easy-align.init.vim
 so ~/.config/nvim/keymap.vim-easy-align.init.vim
+so ~/.config/nvim/package.goyo.vim.init.vim
 so ~/.config/nvim/package.vim-quickrun.init.vim
 so ~/.config/nvim/package.vim-startify.init.vim
 so ~/.config/nvim/package.vim-indent-guides.preinit.vim
