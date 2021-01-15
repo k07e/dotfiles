@@ -22,8 +22,8 @@ so ~/.config/nvim/package.vim-airline.init.vim
 so ~/.config/nvim/package.vim-localrc.init.vim
 so ~/.config/nvim/package.vim-polyglot.init.vim
 so ~/.config/nvim/package.vimdoc-ja.init.vim
-so ~/.config/nvim/package.vim-one.init.vim
-so ~/.config/nvim/package.vim-code-dark.init.vim
+" so ~/.config/nvim/package.vim-one.init.vim
+" so ~/.config/nvim/package.vim-code-dark.init.vim
 so ~/.config/nvim/package.vim.init.vim
 so ~/.config/nvim/package.vim-devicons.init.vim
 so ~/.config/nvim/package.vim-lsp.init.vim
