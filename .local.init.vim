@@ -26,4 +26,7 @@ aug local_reload_initvim
   au!
   au BufEnter *.init.vim,*.postinit.vim nnoremap <buffer> <leader>ll :call LinkAllInitVim()<CR>
   au BufEnter package.minpac.init.vim nnoremap <buffer> <leader>lu :call minpac#update()<CR>
+
+  " @WindowsTerminal/settings.json
+  au BufEnter settings.json nnoremap <buffer> <leader>lu :call system('cat @WindowsTerminal/settings.json >' . g:local_localappdata . '/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json')<CR>
 aug END
