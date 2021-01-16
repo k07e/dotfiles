@@ -28,8 +28,10 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
+            "acrylicOpacity": 0.5,
             "colorScheme": "Dracula",
-            "fontFace": "HackGenNerd Console"
+            "fontFace": "HackGenNerd Console",
+            "useAcrylic": true
         },
         "list":
         [
